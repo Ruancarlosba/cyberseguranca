@@ -8,7 +8,7 @@ html, body {
     height: 100vh;
 }
 
-/* Estilo da imagem à esquerda */
+/*imagem à esquerda */
 .cadastro-image {
     background: url('midia/foto-cadastro.png') no-repeat center center;
     background-size: cover;
@@ -26,7 +26,7 @@ html, body {
     background-color: #212529;
 }
 
-/* Botão personalizado com cor desejada */
+/*button*/
 .custom-btn {
     background-color: rgb(160, 56, 0);
     color: white;
@@ -41,30 +41,41 @@ html, body {
 /* Navbar com a cor personalizada */
 .custom-navbar {
     background-color: rgb(160, 56, 0);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilo dos links no formulário */
-.form-container a {
-    color: #f0f0f0;
-    text-decoration: none;
+
+body {
+    padding-top: 80px; 
 }
 
-.form-container a:hover {
-    text-decoration: underline;
-    color: #f2842a;
+/* Alinhamento dos itens da navbar */
+.navbar-nav {
+    align-items: center;
 }
 
-/* Efeito nav-link */
+/* Espaçamento entre os itens da navbar */
+.nav-item {
+    margin: 0 50px; 
+}
+
+/* Estilo básico dos links */
 .nav-link {
     transition: all 0.3s ease;
     padding: 10px 20px;
     border-radius: 8px;
     border: 2px solid transparent;
+    color: white;
 }
 
+/* Gradiente no hover dos links da navbar */
 .nav-link:hover {
-    background-color: #f2842a;
-    border: 2px solid white;
-    border-radius: 8px;
+    background: linear-gradient(90deg, rgb(140, 48, 0), rgb(160, 56, 0));
+    border: 2px solid rgb(180, 84, 23);
+    border-radius: 10px;
     color: white;
 }
