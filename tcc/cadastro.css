@@ -1,13 +1,70 @@
-/* Hero Section - Imagem de fundo */
-.hero {
-    background-image: url('midia/inicio.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Faz a seção ocupar toda a altura da tela */
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
-/* Opcional: Texto branco e sombra no texto para contraste */
-.hero h1, .hero p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+/* Altura total da tela */
+.full-height {
+    height: 100vh;
+}
+
+/* Estilo da imagem à esquerda */
+.cadastro-image {
+    background: url('midia/foto-cadastro.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Formulário */
+.form-container {
+    max-width: 350px;
+    width: 100%;
+    padding: 2rem;
+}
+
+/* Fundo escuro para o lado direito */
+#login-dark {
+    background-color: #212529;
+}
+
+/* Botão personalizado com cor desejada */
+.custom-btn {
+    background-color: rgb(160, 56, 0);
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: rgb(130, 46, 0);
+    color: white;
+}
+
+/* Navbar com a cor personalizada */
+.custom-navbar {
+    background-color: rgb(160, 56, 0);
+}
+
+/* Estilo dos links no formulário */
+.form-container a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+    color: #f2842a;
+}
+
+/* Efeito nav-link */
+.nav-link {
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover {
+    background-color: #f2842a;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
 }
