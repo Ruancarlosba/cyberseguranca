@@ -32,6 +32,10 @@ html, body {
   color: white;
   border: none;
 }
+.custom-btn a {
+  text-decoration: none;
+  color:white;
+}
 
 .custom-btn:hover {
   background-color: rgb(130, 46, 0);
