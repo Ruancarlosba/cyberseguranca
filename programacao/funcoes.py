@@ -11,4 +11,4 @@ def calcular_imposto(listas_valores):
         imposto_total = imposto_total + imposto       
     return imposto_total
 
-print(calcular_imposto(listas_precos))k
+print(calcular_imposto(listas_precos))
