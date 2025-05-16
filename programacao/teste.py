@@ -1,13 +1,13 @@
-produto_lista = [10,20,30]
+#listas = ["vermelho","verde","amarelo","rosa","botao"]
+listas = [20,10]
+
+nova_lista = []
+soma = 2
+for lista in listas:
+    soma *= lista
+    nova_lista = soma
 
 
-# adicionar
-produto_lista.append("300")
-# alterar
+print(nova_lista)
 
-# exibir
-print(produto_lista[3])
-
-# excluir
-produto_lista.remove(20)
-print(produto_lista)
+    
